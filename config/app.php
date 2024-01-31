@@ -161,6 +161,10 @@ return [
          */
         // แจ้งเตือน
         RealRashid\SweetAlert\SweetAlertServiceProvider::class,
+        //รูปภาพ
+        Intervention\Image\ImageServiceProvider::class,
+
+        
         /*
          * Application Service Providers...
          */
@@ -186,6 +190,10 @@ return [
         // 'Example' => App\Facades\Example::class,
         // แจ้งเตือน
         'Alert' => RealRashid\SweetAlert\Facades\Alert::class,
+        //รูปภาพ
+        'Image' => Intervention\Image\Facades\Image::class,
+
+    
 
     ])->toArray(),
 
